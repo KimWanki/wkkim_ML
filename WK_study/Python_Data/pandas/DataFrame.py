@@ -1,3 +1,4 @@
+# !conda activate DS
 import pandas as pd
 
 # df = pd.DataFrame(data [, index = index_data, columns= columns_data])
