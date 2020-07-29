@@ -90,4 +90,3 @@ print(df3.mean(axis=1))
 print(df3.std(axis=1))
 
 print(df3.describe())
-

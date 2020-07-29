@@ -38,5 +38,3 @@ df_right = pd.DataFrame({'key': ['A', 'B', 'D'], 'right': [4, 5, 6]})
 
 print(df_left.merge(df_right, how='outer'))
 print(df_left.merge(df_right, how='inner'))
-
-
