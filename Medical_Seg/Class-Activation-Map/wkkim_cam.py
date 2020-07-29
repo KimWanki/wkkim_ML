@@ -18,7 +18,6 @@ import math
 DIR_MODEL_SEG = 'C:/Users/USER/PycharmProjects/2020intern_1/medicalAI/segmentation_models_keras/model'
 DIR_MODEL_CLS = 'C:/Users/USER/PycharmProjects/2020intern_1/medicalAI/classification_models_keras/model'
 
-
 DIR_DATA = 'C:/Users/USER/Desktop/test'
 
 
