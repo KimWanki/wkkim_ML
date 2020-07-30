@@ -12,9 +12,10 @@ index_list = ['2011', '2012', '2013', '2014', '2015', '2016', '2017']
 df_KTX = pd.DataFrame(KTX_data, columns=col_list, index=index_list)
 print(df_KTX)
 
-# DataFrame 데이터 분석 시 너무 많은 데이터가 출력돼 분석할 때 오히려 불편할 수 있음.
-# pandas에서는 DataFrame의 head와 tail만 반환 가능함.
 
+# DataFrame 데이터 분석 시 너무 많은 데이터가 출력돼 분석할 때 오히려 불편할 수 있음.
+
+# pandas에서는 DataFrame의 head와 tail만 반환 가능함.
 # 형식 : DataFrame_data.head([n]
 print(df_KTX.head())
 print(df_KTX.tail())

@@ -20,12 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c44a071-c019-4f69-af3e-c175aa6344c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WK_study/Python_Data/matplotlib/graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/WK_study/Python_Data/matplotlib/graph.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WK_study/Python_Data/pandas/DataFrame.py" beforeDir="false" afterPath="$PROJECT_DIR$/WK_study/Python_Data/pandas/DataFrame.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WK_study/Python_Data/pandas/read_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/WK_study/Python_Data/pandas/read_csv.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WK_study/Python_Data/pandas/select_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/WK_study/Python_Data/pandas/select_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WK_study/Python_Data/pandas/series.py" beforeDir="false" afterPath="$PROJECT_DIR$/WK_study/Python_Data/pandas/series.py" afterDir="false" />
     </list>
@@ -68,7 +63,7 @@
       <recent name="C:\Users\user\Documents\GitHub\WK_MachineLearning" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.graph">
+  <component name="RunManager" selected="Python.select_data">
     <configuration name="DataFrame" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="WK_MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -159,9 +154,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.select_data" />
         <item itemvalue="Python.graph" />
         <item itemvalue="Python.read_csv" />
-        <item itemvalue="Python.select_data" />
         <item itemvalue="Python.DataFrame" />
       </list>
     </recent_temporary>
@@ -178,6 +173,8 @@
       <updated>1595986614282</updated>
       <workItem from="1595986616108" duration="1742000" />
       <workItem from="1595997150837" duration="10392000" />
+      <workItem from="1596071113725" duration="1382000" />
+      <workItem from="1596084742134" duration="837000" />
     </task>
     <task id="LOCAL-00001" summary="TIL &#10;how to use pandas DataFrame">
       <created>1596020037658</created>
@@ -213,38 +210,42 @@
       <screen x="0" y="23" width="1680" height="972" />
     </state>
     <state x="426" y="99" key="CommitChangelistDialog2/0.23.1680.972@0.23.1680.972" timestamp="1596020037469" />
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1596028012836">
-      <screen x="0" y="23" width="1680" height="971" />
+    <state width="1878" height="384" key="GridCell.Tab.0.bottom" timestamp="1596073654100">
+      <screen x="0" y="23" width="1920" height="999" />
     </state>
     <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.23.1680.966@0.23.1680.966" timestamp="1596022053295" />
     <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.23.1680.967@0.23.1680.967" timestamp="1596022108862" />
     <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.23.1680.971@0.23.1680.971" timestamp="1596028012836" />
     <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.23.1680.972@0.23.1680.972" timestamp="1596021465485" />
     <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.23.1680.973@0.23.1680.973" timestamp="1596021255445" />
-    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1596028012836">
-      <screen x="0" y="23" width="1680" height="971" />
+    <state width="1878" height="384" key="GridCell.Tab.0.bottom/0.23.1920.999@0.23.1920.999" timestamp="1596073654100" />
+    <state width="1878" height="384" key="GridCell.Tab.0.center" timestamp="1596073654100">
+      <screen x="0" y="23" width="1920" height="999" />
     </state>
     <state width="1638" height="295" key="GridCell.Tab.0.center/0.23.1680.966@0.23.1680.966" timestamp="1596022053295" />
     <state width="1638" height="295" key="GridCell.Tab.0.center/0.23.1680.967@0.23.1680.967" timestamp="1596022108855" />
     <state width="1638" height="295" key="GridCell.Tab.0.center/0.23.1680.971@0.23.1680.971" timestamp="1596028012836" />
     <state width="1638" height="295" key="GridCell.Tab.0.center/0.23.1680.972@0.23.1680.972" timestamp="1596021465484" />
     <state width="1638" height="295" key="GridCell.Tab.0.center/0.23.1680.973@0.23.1680.973" timestamp="1596021255444" />
-    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1596028012836">
-      <screen x="0" y="23" width="1680" height="971" />
+    <state width="1878" height="384" key="GridCell.Tab.0.center/0.23.1920.999@0.23.1920.999" timestamp="1596073654099" />
+    <state width="1878" height="384" key="GridCell.Tab.0.left" timestamp="1596073654099">
+      <screen x="0" y="23" width="1920" height="999" />
     </state>
     <state width="1638" height="295" key="GridCell.Tab.0.left/0.23.1680.966@0.23.1680.966" timestamp="1596022053294" />
     <state width="1638" height="295" key="GridCell.Tab.0.left/0.23.1680.967@0.23.1680.967" timestamp="1596022108855" />
     <state width="1638" height="295" key="GridCell.Tab.0.left/0.23.1680.971@0.23.1680.971" timestamp="1596028012836" />
     <state width="1638" height="295" key="GridCell.Tab.0.left/0.23.1680.972@0.23.1680.972" timestamp="1596021465484" />
     <state width="1638" height="295" key="GridCell.Tab.0.left/0.23.1680.973@0.23.1680.973" timestamp="1596021255444" />
-    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1596028012836">
-      <screen x="0" y="23" width="1680" height="971" />
+    <state width="1878" height="384" key="GridCell.Tab.0.left/0.23.1920.999@0.23.1920.999" timestamp="1596073654099" />
+    <state width="1878" height="384" key="GridCell.Tab.0.right" timestamp="1596073654100">
+      <screen x="0" y="23" width="1920" height="999" />
     </state>
     <state width="1638" height="295" key="GridCell.Tab.0.right/0.23.1680.966@0.23.1680.966" timestamp="1596022053295" />
     <state width="1638" height="295" key="GridCell.Tab.0.right/0.23.1680.967@0.23.1680.967" timestamp="1596022108862" />
     <state width="1638" height="295" key="GridCell.Tab.0.right/0.23.1680.971@0.23.1680.971" timestamp="1596028012836" />
     <state width="1638" height="295" key="GridCell.Tab.0.right/0.23.1680.972@0.23.1680.972" timestamp="1596021465485" />
     <state width="1638" height="295" key="GridCell.Tab.0.right/0.23.1680.973@0.23.1680.973" timestamp="1596021255445" />
+    <state width="1878" height="384" key="GridCell.Tab.0.right/0.23.1920.999@0.23.1920.999" timestamp="1596073654100" />
     <state x="341" y="146" key="SettingsEditor" timestamp="1596020920875">
       <screen x="0" y="23" width="1680" height="972" />
     </state>
@@ -269,7 +270,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Wanki_ML$DataFrame.coverage" NAME="DataFrame Coverage Results" MODIFIED="1595997349571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WK_study/Python_Data/pandas" />
     <SUITE FILE_PATH="coverage/Wanki_ML$graph.coverage" NAME="graph Coverage Results" MODIFIED="1596022108846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WK_study/Python_Data/matplotlib" />
-    <SUITE FILE_PATH="coverage/Wanki_ML$select_data.coverage" NAME="select_data Coverage Results" MODIFIED="1596017770335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WK_study/Python_Data/pandas" />
+    <SUITE FILE_PATH="coverage/Wanki_ML$select_data.coverage" NAME="select_data Coverage Results" MODIFIED="1596071132056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WK_study/Python_Data/pandas" />
     <SUITE FILE_PATH="coverage/Wanki_ML$read_csv.coverage" NAME="read_csv Coverage Results" MODIFIED="1596019897092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WK_study/Python_Data/pandas" />
   </component>
 </project>
