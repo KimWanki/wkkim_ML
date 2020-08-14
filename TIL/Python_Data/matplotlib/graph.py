@@ -55,5 +55,27 @@ plt.plot(x, y1)
 
 plt.show()
 
-#plt.subplot(m,n,p)
+# plt.subplot(m,n,p)
+# m*n 행렬로 이루어진 그래프 중 p번째 위치에 놓일 그래프가 그려지도록 지정.
+
+# 그래프의 출력 범위 지정
+# plt.xlim(xmin, xmax)  # x축의 좌표 범위 지정(xmin, xmax)
+# plt.ylim(ymin, ymax)  # y축의 좌표 범위 지정(ymin, ymax)
+#
+# [xmin, xmax] = plt.xlim()
+# [ymin, ymax] = plt.ylim()
+
+import numpy as np
+
+x = np.linspace(-4, 4, 100)  # [-4,4]범위에서 100개 값 생성.
+y1 = x ** 3
+y2 = 10 * x ** 2 - 2
+
+plt.plot(x, y1, x, y2)
+plt.show()
+
+plt.plot(x, y1, x, y2)
+plt.xlim(-1, 1)
+plt.ylim(-3, 3)
+plt.show()
 
