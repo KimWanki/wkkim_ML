@@ -52,7 +52,6 @@ train_datagen = ImageDataGenerator(
     width_shift_range=0.15,
     height_shift_range=0.15,
     zoom_range=0.3,
-    # shear_range=0.2,
     horizontal_flip=True,
     vertical_flip=True,
     brightness_range=[0.8, 1.3],

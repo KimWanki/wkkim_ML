@@ -40,7 +40,6 @@ def denormalize(x):
     x_min = np.percentile(x, 2)
     x = (x - x_min) / (x_max - x_min)
     x = x.clip(0, 1)
-
     return x
 
 # classes for data loading and preprocessing
@@ -56,7 +55,6 @@ class Dataset:
         preprocessing (albumentations.Compose): data preprocessing
             (e.g. noralization, shape manipulation, etc.)
     """
-
     CLASSES = ['polyp']
 
     def __init__(
