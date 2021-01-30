@@ -113,6 +113,7 @@ mask_train = mask_list[:img_idx]
 mask_val = mask_list[img_idx:]
 
 import math
+
 BATCH_SIZE = 5
 BATCH_CNT = math.ceil(len(img_train)/BATCH_SIZE)
 

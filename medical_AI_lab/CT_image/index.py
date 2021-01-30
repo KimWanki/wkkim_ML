@@ -2,12 +2,11 @@
 authors : wkkim <seoulkwk95@gmail.com>
 license : MIT
 """
+
 import pydicom as dcm
 import matplotlib
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
-
-# tree = ET.parse('/Users/kimwanki/Downloads/colon_cancer/00000001/1001097159_20100114/5_20100114/')
 
 import os
 import glob
@@ -44,7 +43,6 @@ def makexml(filename, width, height, point):
     tree = ElementTree(root)
     tree.write('./' + filename + '.xml')
 
-
 folder_path = '/Users/kimwanki/developer/colon_cancer/'
 folder_list = os.listdir(folder_path)
 folder_list.remove('.DS_Store')
@@ -62,8 +60,8 @@ xml = ET.parse(xml[0])
 root = xml.getroot()
 
 _dcm = [dcm.read_file(i) for i in dcmlist]
-
 location_list =[]
+
 for Contour in root.findall('Contour'):
     slice = Contour.find('Slice-number')
     pt = [i.text for i in Contour.findall('Pt')]
@@ -81,16 +79,17 @@ for Contour in root.findall('Contour'):
     location = [int(slice.text), int(_xmin), int(_ymin), int(_xmax), int(_ymax)]
     location_list.append(location)
 location_list = sorted(location_list)
+
 for i in location_list:
     width, height = _dcm[(len(dcmlist) - 1) - i[0]].pixel_array.shape
 
     plt.imshow(_dcm[(len(dcmlist)-1)-i[0]].pixel_array)
 
-    matplotlib.image.imsave(folder_list[2]+'_'+str(i[0])+'.png', _dcm[(len(dcmlist)-1)-i[0]].pixel_array)
-    makexml(folder_list[2]+'_'+str(i[0]),width,height,i)
+    # matplotlib.image.imsave(folder_list[2]+'_'+str(i[0])+'.png', _dcm[(len(dcmlist)-1)-i[0]].pixel_array)
+    # makexml(folder_list[2]+'_'+str(i[0]),width,height,i)
 
     ax = plt.gca()
-    print( "i : ",i)
+    print("i : ",i)
     print("dx:", i[3]-i[1], " dy:", i[4]-i[2])
     rect = patches.Rectangle((i[1], i[2]),
                              i[3]-i[1],
